@@ -54,7 +54,7 @@ def Pred_func(marque, annee, transmission, quartier, prix):
     x_new = np.array([marque_enc, annee, transmission_enc, quartier_enc, prix])
     x_new = x_new.reshape(1, -1)
     x_new = scaler.transform(x_new)
-    y_pred = best_model.predict(x_new)
+    y_pred = XGB_model.predict(x_new)
     return class_names[int(y_pred[0])]
 
 
