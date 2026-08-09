@@ -69,3 +69,11 @@ streamlit run app_car_data.py
 ├── requirements.txt
 
 └── README.md
+
+## Stack technique
+
+Python · pandas · scikit-learn · XGBoost · Plotly · Streamlit
+
+## Auteur
+
+Oumaro Titans DJIGUIMDE — ESMT Dakar, filière Data Engineering & Intelligence Artificielle
