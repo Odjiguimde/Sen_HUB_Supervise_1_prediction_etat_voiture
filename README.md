@@ -1,6 +1,12 @@
 # Prédiction de l'état d'un véhicule (Occasion / Venant)
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://appcardatapy-cuqwdhfehxnfhlbnvtwps7.streamlit.app/)
+
 Projet de classification supervisée appliqué à des données de véhicules en vente à Dakar, scrapées depuis [expat-dakar.com](https://www.expat-dakar.com/voitures/dakar).
+
+## 🌐 Démo en ligne
+
+👉 **[Essayer l'application ici](https://appcardatapy-cuqwdhfehxnfhlbnvtwps7.streamlit.app/)**
 
 ## Objectif
 
