@@ -4,7 +4,7 @@
 
 Projet de classification supervisée appliqué à des données de véhicules en vente à Dakar, scrapées depuis [expat-dakar.com](https://www.expat-dakar.com/voitures/dakar).
 
-## 🌐 Démo en ligne
+## Démo en ligne
 
 👉 **[Essayer l'application ici](https://appcardatapy-cuqwdhfehxnfhlbnvtwps7.streamlit.app/)**
 
