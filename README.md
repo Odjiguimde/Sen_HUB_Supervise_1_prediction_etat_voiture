@@ -55,10 +55,17 @@ streamlit run app_car_data.py
 
 ## Structure du projet
 ├── Clas_7_Modeles_Car_Data.ipynb # Notebook d'entrainement (7 modèles)
+
 ├── app_car_data.py # Application de déploiement Streamlit
+
 ├── best_model.joblib # Meilleur modèle entrainé
+
 ├── encoders.joblib # Encodeurs des variables catégorielles
+
 ├── uniques.joblib # Valeurs uniques (pour les listes déroulantes)
+
 ├── scaler.joblib # Normaliseur (MinMaxScaler)
+
 ├── requirements.txt
+
 └── README.md
