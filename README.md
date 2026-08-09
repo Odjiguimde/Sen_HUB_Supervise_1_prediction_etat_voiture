@@ -1,8 +1,8 @@
-# 🚗 Prédiction de l'état d'un véhicule (Occasion / Venant)
+# Prédiction de l'état d'un véhicule (Occasion / Venant)
 
 Projet de classification supervisée appliqué à des données de véhicules en vente à Dakar, scrapées depuis [expat-dakar.com](https://www.expat-dakar.com/voitures/dakar).
 
-## 🎯 Objectif
+## Objectif
 
 Prédire si un véhicule est **Occasion** ou **Venant** à partir de :
 - Marque
@@ -11,7 +11,7 @@ Prédire si un véhicule est **Occasion** ou **Venant** à partir de :
 - Quartier
 - Prix
 
-## 📊 Données
+## Données
 
 | Variable | Type | Description |
 |---|---|---|
@@ -22,7 +22,7 @@ Prédire si un véhicule est **Occasion** ou **Venant** à partir de :
 | Prix | Numérique | Prix de vente (FCFA) |
 | Etat (cible) | Catégorielle | Occasion / Venant |
 
-## 🧠 Modélisation
+## Modélisation
 
 7 algorithmes de classification sont entrainés et comparés, chacun optimisé via `GridSearchCV` :
 
@@ -36,11 +36,11 @@ Prédire si un véhicule est **Occasion** ou **Venant** à partir de :
 
 **Pipeline** : nettoyage des adresses → encodage (`LabelEncoder`) → traitement des outliers (IQR + `KNNImputer`) → normalisation (`MinMaxScaler`) → split train/val/test (80/10/10) → recherche d'hyperparamètres → évaluation (Accuracy, F1, Precision, Recall) → sélection automatique du meilleur modèle → déploiement.
 
-## 🏆 Résultats
+## Résultats
 
 Le meilleur modèle est sélectionné automatiquement en fin de notebook selon le F1-score sur les données de validation, puis sauvegardé (`best_model.joblib`).
 
-## 🚀 Déploiement
+## Déploiement
 
 Application Streamlit (`app_car_data.py`) permettant :
 - une prédiction manuelle via formulaire,
@@ -53,4 +53,4 @@ pip install -r requirements.txt
 streamlit run app_car_data.py
 ```
 
-## 📁 Structure du projet
+## Structure du projet
