@@ -82,4 +82,4 @@ Python · pandas · scikit-learn · XGBoost · Plotly · Streamlit
 
 ## Auteur
 
-Oumaro Titans DJIGUIMDE — ESMT Dakar, filière Data Engineering & Intelligence Artificielle
+Oumaro Titans DJIGUIMDE — ESMT Dakar, filière Data Engineering & Intelligence Artificielle.
